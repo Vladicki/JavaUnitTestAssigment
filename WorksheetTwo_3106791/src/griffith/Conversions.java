@@ -30,6 +30,13 @@ public class Conversions {
 		return 0;
 		
 	}
+	public String upperCaseToLowerCase(String str) {//switches all uppercase values to lower case values
+		return str; 
+	
+	}	
+	public String lowerCaseToUpperCase(String str){//switches all lower case values to upper case values
+		return str;
+	}
 
 	
 }
