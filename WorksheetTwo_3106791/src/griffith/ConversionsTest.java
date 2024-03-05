@@ -26,6 +26,9 @@ public class ConversionsTest {
 	@Test
 	void kilometerToMilesTest() {
 		 Conversions conversions = new Conversions();
+		 assertEquals(49,conversions.kilometerToMiles(30));
+		 assertEquals(10,conversions.kilometerToMiles(17));
+		 assertEquals(10,conversions.kilometerToMiles(6));
 
 	}
 	@Test
