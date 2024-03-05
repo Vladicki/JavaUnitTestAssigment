@@ -20,7 +20,8 @@ public class Conversions {
 		
 	}
 	public double fahrenheitToCelsius(int farhenheit) {
-		return 0;
+		double cel = (farhenheit-32)*5/9;
+		return cel;
 		
 	}
 	public double milesToKilometer(int miles) {
