@@ -38,8 +38,8 @@ public class Conversions {
 	
 	}	
 	public String lowerCaseToUpperCase(String str){//switches all lower case values to upper case values
-		return str;
-	}
+		return str.toUpperCase();
+}
 
 	
 }
