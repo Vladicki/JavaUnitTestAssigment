@@ -11,33 +11,32 @@ public class ConversionsTest {
 	@Test
 	void celsiusToFahrenheitTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(25,conversions.celsiusToFahrenheit(77));
-		 assertEquals(5,conversions.celsiusToFahrenheit(41));
-		 assertEquals(20,conversions.celsiusToFahrenheit(68));
-		 
+
+		 assertEquals(50,conversions.celsiusToFahrenheit(10));
+		 assertEquals(59,conversions.celsiusToFahrenheit(15));
+		 assertEquals(41,conversions.celsiusToFahrenheit(5));	 
 	}
 	@Test
 	void fahrenheitToCelsiusTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(50,conversions.fahrenheitToCelsius(10));
-		 assertEquals(59,conversions.fahrenheitToCelsius(15));
-		 assertEquals(41,conversions.fahrenheitToCelsius(5));
+		 assertEquals(25,conversions.fahrenheitToCelsius(77));
+		 assertEquals(5,conversions.fahrenheitToCelsius(41));
+		 assertEquals(20,conversions.fahrenheitToCelsius(68));
 
 	}
 	@Test
 	void milesToKilometerTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(30,conversions.milesToKilometer(48));
-		 assertEquals(10,conversions.milesToKilometer(16));
-		 assertEquals(20,conversions.milesToKilometer(32));
-
+		 assertEquals(1.6,conversions.milesToKilometer(1));
+		 assertEquals(8,conversions.milesToKilometer(5));
+		 assertEquals(32,conversions.milesToKilometer(20));
 	}
 	@Test
 	void kilometerToMilesTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(1.6,conversions.kilometerToMiles(1));
-		 assertEquals(8,conversions.kilometerToMiles(5));
-		 assertEquals(32,conversions.kilometerToMiles(20));
+		 assertEquals(30,conversions.kilometerToMiles(48));
+		 assertEquals(10,conversions.kilometerToMiles(16));
+		 assertEquals(20,conversions.kilometerToMiles(32));
 
 	}
 	@Test
@@ -51,8 +50,8 @@ public class ConversionsTest {
 	@Test
 	void lowerCaseToUpperCaseTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals("STRING",conversions.upperCaseToLowerCase("StrInG"));
-		 assertEquals("HELLO",conversions.upperCaseToLowerCase("HellO"));
-		 assertEquals("CONVERT",conversions.upperCaseToLowerCase("ConVerT"));
+		 assertEquals("STRING",conversions.lowerCaseToUpperCase("StrInG"));
+		 assertEquals("HELLO",conversions.lowerCaseToUpperCase("HellO"));
+		 assertEquals("CONVERT",conversions.lowerCaseToUpperCase("ConVerT"));
 	}
 }

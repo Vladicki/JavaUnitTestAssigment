@@ -15,7 +15,8 @@ public class Conversions {
 	}
 
 	public double celsiusToFahrenheit(int celsius) {
-		return 0;
+		double far= celsius*9/5+32;
+		return far;
 		
 	}
 	public double fahrenheitToCelsius(int farhenheit) {
