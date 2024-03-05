@@ -11,7 +11,10 @@ public class ConversionsTest {
 	@Test
 	void celsiusToFahrenheitTest() {
 		 Conversions conversions = new Conversions();
-
+		 assertEquals(25,conversions.celsiusToFahrenheit(10));
+		 assertEquals(5,conversions.celsiusToFahrenheit(15));
+		 assertEquals(20,conversions.celsiusToFahrenheit(50));
+		 
 	}
 	@Test
 	void fahrenheitToCelsiusTest() {
