@@ -30,8 +30,8 @@ public class Conversions {
 		
 	}
 	public double kilometerToMiles(int kilometer) {
-		return 0;
-		
+		double ml = kilometer/1.6;
+		return ml;
 	}
 	public String upperCaseToLowerCase(String str) {//switches all uppercase values to lower case values
 		return str.toLowerCase(); 
