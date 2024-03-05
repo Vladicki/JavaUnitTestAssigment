@@ -31,6 +31,9 @@ public class ConversionsTest {
 	@Test
 	void upperCaseToLowerCaseTest() {
 		 Conversions conversions = new Conversions();
+		 assertEquals("string",conversions.upperCaseToLowerCase("StrInG"));
+		 assertEquals("hello",conversions.upperCaseToLowerCase("HellO"));
+		 assertEquals("convert",conversions.upperCaseToLowerCase("ConVerT"));
 
 	}
 	@Test
