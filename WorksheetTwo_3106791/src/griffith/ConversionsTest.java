@@ -31,11 +31,13 @@ public class ConversionsTest {
 	@Test
 	void upperCaseToLowerCaseTest() {
 		 Conversions conversions = new Conversions();
- 
+
 	}
 	@Test
 	void lowerCaseToUpperCaseTest() {
 		 Conversions conversions = new Conversions();
-		 
+		 assertEquals("STRING",conversions.upperCaseToLowerCase("StrInG"));
+		 assertEquals("HELLO",conversions.upperCaseToLowerCase("HellO"));
+		 assertEquals("CONVERT",conversions.upperCaseToLowerCase("ConVerT"));
 	}
 }
