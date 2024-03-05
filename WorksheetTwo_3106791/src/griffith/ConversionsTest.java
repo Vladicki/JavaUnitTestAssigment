@@ -11,33 +11,33 @@ public class ConversionsTest {
 	@Test
 	void celsiusToFahrenheitTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(25,conversions.celsiusToFahrenheit(10));
-		 assertEquals(5,conversions.celsiusToFahrenheit(15));
-		 assertEquals(20,conversions.celsiusToFahrenheit(50));
+		 assertEquals(25,conversions.celsiusToFahrenheit(77));
+		 assertEquals(5,conversions.celsiusToFahrenheit(41));
+		 assertEquals(20,conversions.celsiusToFahrenheit(68));
 		 
 	}
 	@Test
 	void fahrenheitToCelsiusTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(10,conversions.fahrenheitToCelsius(25));
-		 assertEquals(15,conversions.fahrenheitToCelsius(5));
-		 assertEquals(20,conversions.fahrenheitToCelsius(7));
+		 assertEquals(50,conversions.fahrenheitToCelsius(10));
+		 assertEquals(59,conversions.fahrenheitToCelsius(15));
+		 assertEquals(41,conversions.fahrenheitToCelsius(5));
 
 	}
 	@Test
 	void milesToKilometerTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(30,conversions.milesToKilometer(49));
-		 assertEquals(10,conversions.milesToKilometer(17));
-		 assertEquals(6,conversions.milesToKilometer(10));
+		 assertEquals(30,conversions.milesToKilometer(48));
+		 assertEquals(10,conversions.milesToKilometer(16));
+		 assertEquals(20,conversions.milesToKilometer(32));
 
 	}
 	@Test
 	void kilometerToMilesTest() {
 		 Conversions conversions = new Conversions();
-		 assertEquals(49,conversions.kilometerToMiles(30));
-		 assertEquals(10,conversions.kilometerToMiles(17));
-		 assertEquals(10,conversions.kilometerToMiles(6));
+		 assertEquals(1.6,conversions.kilometerToMiles(1));
+		 assertEquals(8,conversions.kilometerToMiles(5));
+		 assertEquals(32,conversions.kilometerToMiles(20));
 
 	}
 	@Test
