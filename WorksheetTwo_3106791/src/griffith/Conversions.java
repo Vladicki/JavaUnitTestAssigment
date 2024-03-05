@@ -24,7 +24,8 @@ public class Conversions {
 		
 	}
 	public double milesToKilometer(int miles) {
-		return 0;
+		double km = miles * 1.6;
+		return km;
 		
 	}
 	public double kilometerToMiles(int kilometer) {
