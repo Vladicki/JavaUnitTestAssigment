@@ -1,45 +1,40 @@
-/**
- * 
- */
+// 3106791 Vladislav Iurev
 package griffith;
 
-/**
- * 
- */
+// Class for various conversion methods
 public class Conversions {
 
+    // Method to convert Celsius to Fahrenheit
+    public double celsiusToFahrenheit(int celsius) {
+        double far = celsius * 9 / 5 + 32;
+        return far;
+    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    // Method to convert Fahrenheit to Celsius
+    public double fahrenheitToCelsius(int fahrenheit) {
+        double cel = (fahrenheit - 32) * 5 / 9;
+        return cel;
+    }
 
-	}
+    // Method to convert Miles to Kilometers
+    public double milesToKilometer(int miles) {
+        double km = miles * 1.6;
+        return km;
+    }
 
-	public double celsiusToFahrenheit(int celsius) {
-		double far= celsius*9/5+32;
-		return far;
-		
-	}
-	public double fahrenheitToCelsius(int farhenheit) {
-		double cel = (farhenheit-32)*5/9;
-		return cel;
-		
-	}
-	public double milesToKilometer(int miles) {
-		double km = miles * 1.6;
-		return km;
-		
-	}
-	public double kilometerToMiles(int kilometer) {
-		double ml = kilometer/1.6;
-		return ml;
-	}
-	public String upperCaseToLowerCase(String str) {//switches all uppercase values to lower case values
-		return str.toLowerCase(); 
-	
-	}	
-	public String lowerCaseToUpperCase(String str){//switches all lower case values to upper case values
-		return str.toUpperCase();
-}
+    // Method to convert Kilometers to Miles
+    public double kilometerToMiles(int kilometer) {
+        double ml = kilometer / 1.6;
+        return ml;
+    }
 
-	
+    // Method to switch all uppercase values to lowercase values
+    public String upperCaseToLowerCase(String str) {
+        return str.toLowerCase();
+    }
+
+    // Method to switch all lowercase values to uppercase values
+    public String lowerCaseToUpperCase(String str) {
+        return str.toUpperCase();
+    }
 }
